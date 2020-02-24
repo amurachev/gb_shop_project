@@ -226,3 +226,20 @@ body {
     /*overflow-x: scroll;*/
     /*white-space: nowrap;*/
   }
+
+  .catalog h1 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #000000;
+    background-color: #eaeaea;
+    font-size: 18px;
+}
+
+.catalog h2 {
+    width: 100%;
+    float: left;
+    color: #000000;
+    background-color: #eaeaea;
+    font-size: 14px;
+}
