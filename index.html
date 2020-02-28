@@ -3,6 +3,43 @@
 
 <head>
 	<meta charset="utf-8">
+	<script type="text/javascript">
+			
+		function randColor(elem) {
+/*СОЗДАЕМ ПЕРЕМЕННЫЕ
+elem - элемент которому будем менять задний фон
+code_color - получаем элемент в который будет выводить код цвета
+r,g,b - отвечают за кодировку и вместе выводят цвет
+color - в нее записываем полную строку значения цвета
+*/
+		var element = document.querySelector(elem),
+			code_color = document.querySelector('.code_color'),
+			r = Math.floor(Math.random() * (256)),
+			g = Math.floor(Math.random() * (256)),
+			b = Math.floor(Math.random() * (256)),
+			color = '#' + r.toString(16) + g.toString(16) + b.toString(16);
+
+		element.style.background = color;
+		code_color.innerText = color;
+	}
+
+function add_randColor() {
+/*СОЗДАЕМ ПЕРЕМЕННЫЕ
+elem - элемент которому будем менять задний фон
+code_color - получаем элемент в который будет выводить код цвета
+r,g,b - отвечают за кодировку и вместе выводят цвет
+color - в нее записываем полную строку значения цвета
+*/
+			r = Math.floor(Math.random() * (256)),
+			g = Math.floor(Math.random() * (256)),
+			b = Math.floor(Math.random() * (256)),
+			color = '#' + r.toString(16) + g.toString(16) + b.toString(16);
+
+		return color;
+	}
+</script>	
+
+
 	<title>Школа скалолазания "ForFan"</title>
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -11,6 +48,7 @@
 
 	<div class="content">
 		<div class="header">
+			<img src="img/logo.png">
 			<a href="#">О нас</a>
 			<a href="catalog.html">Каталог услуг</a>
 			<a href="contaсts.html">Наши контакты</a>
@@ -39,6 +77,10 @@
 								href="https://27crags.com/areas/1118">Cascais</a>
 							, 15&nbsp;минутах езды от&nbsp;мыса Рока, поверьте, там классно)
 						</p>
+
+						<p>Если Вас заинтересовала наша школа, Вы можете заполнить <a href="contaсts.html#feedbackform"> небольшую форму для
+								обратной связи </a> и мы с Вами свяжемся)</p>
+
 						<p>В этом мне помог IT-портал <a href="https://geekbrains.ru">GeekBrains</a></p>
 					</div>
 				</div>

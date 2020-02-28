@@ -41,6 +41,12 @@ body {
     padding-right: 40px;
 }
 
+ a:link:hover{
+    color: red;
+}
+
+
+
 .header span {
     padding: 0 38px;
 }
