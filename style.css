@@ -14,8 +14,9 @@ body {
     min-width: 1300px;
     border-bottom: 1px solid #b5b7ba;
     background-color: #dfdfdf;
+    background-image: url(img/top_header_bg.png);
     margin: 0 auto;
-    height: 50px;
+    height: 80px;
     text-align: center;
     padding-top: 18px;
 }
@@ -41,14 +42,20 @@ body {
     padding-right: 40px;
 }
 
- a:link:hover{
-    color: red;
-}
-
-
-
 .header span {
     padding: 0 38px;
+}
+
+.header img {
+    float: left;
+    height: 100%;
+}
+
+.header h1 {
+    text-align: center;
+    color: #242424;
+    font-size: 30px;
+    font-family: URW Chancery L, cursive;
 }
 
 .content {
@@ -248,3 +255,15 @@ body {
  .contacts_input {
      size: 150px;
         }
+
+
+        menu li a:hover {
+            color: #1896FF;
+            }
+            .menu li a:active {
+            color: red;
+            }
+            .menu .new:after {
+            content: " new";
+            color: blue;
+            }
