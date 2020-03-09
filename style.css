@@ -49,6 +49,7 @@ body {
 
 
 .header .logo{
+    width: auto;
     float: left;
     height: 80%;
     padding-left: 20px;
@@ -301,8 +302,8 @@ ul li ul:hover {
   }
 
   .content img {
-    width: auto;
-    height :100%;
+    width: 100%;
+    height :auto;
     /*display: inline-block;*/
 }
 
