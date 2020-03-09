@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<meta charset="utf-8">	
+	<meta charset="utf-8">
 	<title>Школа скалолазания "ForFan"</title>
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -11,13 +11,21 @@
 
 	<div class="content">
 		<div class="header">
-				<img src="img/logo.png">
-				<h1>Школа скалолазания</h1>
-				<ul class=”menu”>
-						<li><a href="#">О нас</a></li>
-						<li><a href="catalog.html">Каталог</a></li>
-						<li><a href="contacts.html">Контакты</a></li>
+			<img class="logo" src="img/logo.png">
+			<h1>Школа скалолазания</h1>
+			<nav role="navigation">
+				<ul>
+					<li><a href="#">О нас</a></li>
+					<li><a href="catalog.html">Каталог</a>
+						<ul class="dropdown">
+							<li><a href="week_start.html">Вводный&nbsp;недельный&nbsp;курс</a></li>
+							<li><a href="week_boulder.html">Недельный&nbsp;курс&nbsp;боулдеринга</a></li>
+							<li><a href="week_lead.html">Недельный&nbsp;курс&nbsp;на&nbsp;скалах</a></li>
+						</ul>
+					</li>
+					<li><a href="contaсts.html">Контакты</a></li>
 				</ul>
+			</nav>
 		</div>
 
 		<div class="center">
@@ -41,7 +49,8 @@
 							, 15&nbsp;минутах езды от&nbsp;мыса Рока, поверьте, там классно)
 						</p>
 
-						<p>Если Вас заинтересовала наша школа, Вы можете заполнить <a href="contaсts.html#feedbackform"> небольшую форму для
+						<p>Если Вас заинтересовала наша школа, Вы можете заполнить <a href="contaсts.html#feedbackform">
+								небольшую форму для
 								обратной связи </a> и мы с Вами свяжемся)</p>
 
 						<p>В этом мне помог IT-портал <a href="https://geekbrains.ru">GeekBrains</a></p>
