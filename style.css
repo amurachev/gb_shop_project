@@ -10,6 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Стили header____________________________________________________________________*/
 .header {
     min-width: 1300px;
     border-bottom: 1px solid #b5b7ba;
@@ -24,23 +25,6 @@ body {
 .header .selected {
     color: #000;
 }
-/*
-.header a {
-    color: #283c68;
-    font-size: 25px;
-    font-family: URW Chancery L, cursive;
-    font-weight: 100;
-    text-align: center;
-    text-decoration: none;
-    height: 30px;
-    line-height: 30px;
-    display: block;
-    padding-right: 40px;
-}*/
-/*
-.header span {
-    padding: 0 38px;
-}*/
 
 .header img {
     float: left;
@@ -55,14 +39,6 @@ body {
     padding-left: 20px;
     padding-top: 5px;
 }
-/*
-.header .menu{
-    box-shadow: 3px 0 7px rgba(0,0,0,.3);
-    float: left;
-    height: 100%;
-    padding-left: 20px;
-    padding-top: 5px;
-}*/
 
 nav {
     font-family: monospace;
@@ -179,6 +155,8 @@ ul li ul:hover {
   width: 100%;
 }
 
+/*___________________________________Стили header*/
+
 .center {
     width: 1300px;
     margin: 0 auto;
@@ -209,12 +187,18 @@ ul li ul:hover {
 .content .box_text a  {
     color: #40678a;
     font-size: 24px;
-    font-weight: 100;
+    font-weight: 80;
     text-align: center;
     text-decoration: none;
     padding-right:30px;
+    font-family: cursive;
 }
 
+.content .box_text a:hover  {
+    color: #33526d;
+    font-weight: 100;
+    font-family: cursive;
+}
 
 .content .media {
     margin-right: 0;
@@ -267,22 +251,6 @@ ul li ul:hover {
     background-color: #5ba1d3;
 }
 
-.footer { /* # == id */
-    background-color: #434445;
-    width: 100%;
-    float: left;
-    height: 140px;
-    text-align: center;
-    color: #a4a4a4;
-    font-size: 20px;
-    font-weight: 100;
-    line-height: 140px;
-}
-
-.footer a {
-    color: inherit;
-}
-
 .container_1 {
     width: 60%;
     height: 300px;
@@ -301,10 +269,10 @@ ul li ul:hover {
     /*white-space: nowrap;*/
   }
 
-  .content img {
-    width: 100%;
-    height :auto;
-    /*display: inline-block;*/
+  .container img {
+    width: auto;
+    height :100%;
+    display: inline-block;
 }
 
 .col-1-2 {
@@ -330,6 +298,12 @@ ul li ul:hover {
     /*overflow-x: scroll;*/
     /*white-space: nowrap;*/
   }
+
+  .container_1_3 img {
+    width: 100%;
+    height :auto;
+    /*display: inline-block;*/
+}
 
   .container_2_3 {
     width: 53%;
@@ -378,6 +352,40 @@ ul li ul:hover {
         color: #484343;
         }
 
+        .catalog li a:hover  {
+            color: #242424;
+            font-size: 27px;
+            font-weight: 100;
+        }
+
  .contacts_input {
      size: 150px;
         }
+
+/* Стили header________________________________*/
+
+
+.footer { /* # == id */
+    background-color: #434445;
+    width: 100%;
+    float: left;
+    height: 140px;
+    text-align: center;
+    color: #a4a4a4;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 140px;
+}
+
+.footer a {
+    color: inherit;
+}
+
+.footer p {
+    width: auto;
+    float: right;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+/* ________________________________Стили header*/
