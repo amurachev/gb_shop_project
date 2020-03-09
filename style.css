@@ -12,7 +12,8 @@ body {
 
 /* Стили header____________________________________________________________________*/
 .header {
-    min-width: 1300px;
+    min-width: 1000px;
+    width: 100%;
     border-bottom: 1px solid #b5b7ba;
     background-color: #dfdfdf;
     background-image: url(img/top_header_bg.png);
@@ -158,12 +159,16 @@ ul li ul:hover {
 /*___________________________________Стили header*/
 
 .center {
-    width: 1300px;
+    /*width: 1300px;*/
+    min-width: 1000px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .content {
-    min-width: 1300px;
+    /*min-width: 1300px;*/
+    min-width: 1000px;
+    width: 100%;
     margin: 0 auto;
     min-height: calc(100vh - 140px); 
 }
@@ -266,6 +271,7 @@ ul li ul:hover {
     padding: 15px;
     margin: 0 auto;
     overflow-x: scroll;
+    white-space:nowrap;
     /*white-space: nowrap;*/
   }
 
@@ -273,6 +279,9 @@ ul li ul:hover {
     width: auto;
     height :100%;
     display: inline-block;
+    overflow-x: scroll;
+    white-space:nowrap;
+    vertical-align: top;
 }
 
 .col-1-2 {
@@ -368,6 +377,7 @@ ul li ul:hover {
 .footer { /* # == id */
     background-color: #434445;
     width: 100%;
+    min-width: 1000px;
     float: left;
     height: 140px;
     text-align: center;
